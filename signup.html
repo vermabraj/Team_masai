@@ -5,12 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #form{
+            background-color: #11c5d3;
+            width: 20%;
+            border: 1px solid;
+            margin: auto;
+            padding:2% 4%;
+            text-align: center;
+            font-size: 30px;
+        }
+       
+            input[type=submit]{
+                background-color: #219794;
+  border: none;
+  color: white;
+  padding: 18px 110px;
+  text-decoration: none;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+            }
+            input[type=text]{
+                padding: 16px 50px;
+                /* margin: 4px 2px; */
+            }
+        
+    </style>
 </head>
 <body>
-    <form>
-        <input placeholder="enter  name">
-        <input placeholder="enter  pass">
-        <img width="50%" src="https://user-images.githubusercontent.com/18325865/62835891-6a077500-bc2b-11e9-9962-72d5688ca611.png">
-    </form>
+    <div id="form">
+        <form>
+            <pre>- Visitor -</pre>
+            <input type="text" placeholder="Full  name"><br><br>
+            <input type="text" placeholder="Email"><br><br>
+            <input type="text" placeholder="Orgnization"><br><br>
+            <input type="submit" value="SIGN UP"><br><br>
+            <input type="submit" value="RETURN">
+
+        </form>
+    </div>
 </body>
 </html>
